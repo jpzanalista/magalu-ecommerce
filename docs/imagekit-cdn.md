@@ -24,13 +24,13 @@ Geradas no Object Storage (`mgc object-storage api-key create`) e guardadas no
    - **Bucket folder:** `/`  (raiz)
    - **Access key / Secret key:** os valores de `OS_ACCESS_KEY` / `OS_SECRET_KEY`
    - **Endpoint:** `https://br-se1.magaluobjects.com`
-5. Salvar e anexar a origem ao **URL endpoint** padrão (`https://ik.imagekit.io/<seu_id>`).
+5. Salvar e anexar a origem ao **URL endpoint** padrão (`https://ik.imagekit.io/movetechmagalu`).
 
-## URLs de acesso (troque <seu_id> pelo seu ImageKit ID)
+## URLs de acesso (troque movetechmagalu pelo seu ImageKit ID)
 - Original via CDN:
-  `https://ik.imagekit.io/<seu_id>/produtos/produto-teste.jpg`
+  `https://ik.imagekit.io/movetechmagalu/produtos/produto-teste.jpg`
 - Com transformação (largura 300px + WebP):
-  `https://ik.imagekit.io/<seu_id>/produtos/produto-teste.jpg?tr=w-300,f-webp`
+  `https://ik.imagekit.io/movetechmagalu/produtos/produto-teste.jpg?tr=w-300,f-webp`
 
 ## Fluxo
 Usuário -> URL da CDN (ImageKit) -> [cache] -> na primeira vez, ImageKit busca no
