@@ -1,0 +1,11 @@
+# Segredos e IDs gerados — nunca versionar
+.env.infra
+*.env
+
+# Chaves SSH
+*.pem
+*.key
+id_rsa*
+
+# Sistema
+.DS_Store
